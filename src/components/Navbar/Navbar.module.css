@@ -1,0 +1,31 @@
+
+.header {
+    font-size: 36px;
+    grid-row: navbar-start / navbar-end;
+    grid-column: sidebar-start / sidebar-end;
+    align-self: end;
+    margin-bottom: -7px;
+}
+
+.linksRow {
+    grid-row: navbar-start / navbar-end;
+    grid-column: content-col-start / content-col-end;
+    justify-self: end;
+    align-self: end;
+}
+
+.linksRow > * {
+    font-size: larger;
+    margin-left: 30px;
+}
+
+.divider {
+    grid-row: navbar-start / navbar-end;
+    grid-column: start / end;
+    border-bottom: 1px solid black;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}

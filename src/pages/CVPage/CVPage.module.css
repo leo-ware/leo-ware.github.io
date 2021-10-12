@@ -1,0 +1,39 @@
+
+.infoBar > div {
+    margin-top: 5px;
+}
+
+.spacer {
+    height: 15px;
+}
+
+.divider {
+    height: 0;
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin: 3px 0 6px;
+}
+
+.entry {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+.institution {
+    font-weight: bold;
+}
+
+.title {
+    font-size: 14px;
+}
+
+.topBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.detailsList {
+    font-size: 14px;
+    margin-top: 3px;
+    margin-left: 10px;
+}

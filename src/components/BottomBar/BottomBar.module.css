@@ -1,0 +1,12 @@
+.main {
+    font-size: 12px;
+    grid-column: content-col-start / content-col-end;
+    grid-row: bottombar-start / bottombar-end;
+    margin: 20px 0;
+}
+
+.link {
+    color: grey;
+    margin-top: 0;
+    margin-right: 10px;
+}
